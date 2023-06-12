@@ -18,3 +18,18 @@ jobs:
           echo "Step 3 running"
           sleep 5
           hostname
+  job2:
+    runs-on: ubuntu-16.04
+    steps:
+      - name: run a single command on ubuntu machine
+        run: hostname
+      - name: step 2
+        run: |
+          echo "Step 2 running"
+          sleep 5
+          hostname
+      - name: step 3
+        run: |
+          echo "Step 3 running"
+          sleep 5
+          hostname
