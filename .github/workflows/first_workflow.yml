@@ -19,7 +19,7 @@ jobs:
           sleep 5
           hostname
   job2:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - name: run a single command on ubuntu machine
         run: hostname
